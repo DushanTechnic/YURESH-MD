@@ -295,7 +295,7 @@ async function init() {
   } else {
       const sessionDownloaded = await downloadSessionData();
       if (sessionDownloaded) {
-          console.log("🔑 Session downloaded, starting bot. 🔓");
+          console.log("🔑 Session downloaded, starting bot.�🔓");
           connectWA()
       } else {
           console.log("🔐No session found or downloaded⚙️");
